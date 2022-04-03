@@ -72,9 +72,9 @@ WSGI_APPLICATION = 'residenza.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME' : 'barpacoca',
-        'USER': 'bilu',                 # Digite o nome d usuário do banco de dados
-        'PASSWORD': 'V1v@2022',        # Digite a senha
+        'NAME' : '<nome_do_banco_de_dados>',
+        'USER': '<nome_do_usuario>',                 # Digite o nome do usuário do banco de dados
+        'PASSWORD': '<senha>',                       # Digite a senha
         'HOST': 'localhost',
         'PORT': '5432',
     }
