@@ -1,0 +1,14 @@
+{% load static %}
+<div class="container" id="chart1-container">
+    <div class="col-12">
+      <h2 class="title primary-color">Novos Clintes e Ações</h2>
+      <p class="subtitle secondary-color">
+        Confira os dados de 2021
+      </p>
+      <!--CANVAS - Desenhar elementos gráficos usando JS-->
+      <canvas class="line-chart"></canvas>
+      <!--Incluindo o JavaScript-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+      <script src="{% static 'js/main.js' %}"></script>
+    </div>
+</div>
