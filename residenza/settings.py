@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_pzemb4=)=$al0ap@)i@2b!ast$d#1z!=(5**c^nrh48myro$o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -157,4 +157,4 @@ CSRF_COOKIE_HTTPONLY = True
 X_FRAME_OPTIONS = 'DENY'
 
 #QANDO ESTIVER EM AMBIENTE DE DESENVOLVIMENTO LOCAL, ESTE RECURSO ABAIXO DEVE PSER COMENTADO COM UM #
-#SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = True
